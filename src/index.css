@@ -40,6 +40,7 @@
   .trebuchet{
     font-family: "TrebuchetMS";
   }
+
 }
 
 @layer components{
@@ -48,5 +49,10 @@
   }
   .menu-href {
     @apply block transition duration-200 hover:text-light-blue transform hover:scale-125
+  }
+  
+  .text-banner{
+    font-family: "BebasNeue";
+    text-shadow: 2px 2px 1px #000000;
   }
 }
